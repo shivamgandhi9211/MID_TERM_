@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(90, 187, 243);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    top: 0;
+    width: 97.3%;
+    height: 10%;
+    align-items: center;
+}
+.right-nav {
+    margin-left: auto;
+    width: 75%;
+}
+nav a {
+    color: white;
+    margin: 10px 50px;
+    text-decoration: none;
+    padding: 50px;
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 70px;
+    width: 100px;
+    height: 50px;
+}
+
+.flex-container {
+    display: flex;
+    padding-top: 5px;
+    margin-right: 40%;
+    width: 50%;
+    order: 1;
+    margin-left: 5%;
+  }
+
+  
+.flex-container > div {
+    background-color: #f1f1f1;
+    border: 1px solid;
+    margin: 5px;
+    padding: 10px;
+    font-size: 5px;
+}
+
+p{
+    font-weight: 407;
+    font-style: normal;
+    font-size: 14px;
+}
+
+button{
+    line-height: 1.5;
+    width: 100%;
+    padding: 0 10px;
+    font-size: 0.7rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 0px;
+    background-color: black;
+}
+
+aside {
+    background-image: url(images/clearcut-derby-RBGgvV_NkxM-unsplash.jpg);
+    position: absolute;
+    top: 33.7%;
+    left: 950;
+    width: 20%;
+    
+}
+
+.aside-text{
+    position: absolute;
+    top: 110px;
+    margin-left: 60px;
+    color: #fff;
+    padding: 20px;
+}
+
+.aside-text h2{
+    text-align: center;
+    justify-items: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+footer{
+    padding-top: 5px;
+
+}
+
+.footer-img{
+    height: 5px;
+    width: 1000px;
+}
